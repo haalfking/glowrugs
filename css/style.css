@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(226, 223, 218);
+    color:rgb(88, 12, 88);
+    text-align: center;
+    background-position: aleign;
+    background-repeat: no-repeat;
+    font-family: Cormorant Garamond, sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+
+.navbar li{
+    font-size: 20px;
+    
+    border: none;
+    text-transform: uppercase;
+    padding: 20px;
+    cursor: pointer; 
+    border-radius: 10px;
+}
+
+.navbar a{
+    
+    border: none;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.navbar ul :hover {
+    background-color:rgb(102, 214, 82);
+}
